@@ -4,8 +4,13 @@ body {
     margin: 0;
 }
 
-.section-two-content p {
-    line-height: 30px;
+i {
+    font-size: 5px;
+}
+
+b {
+    font-weight: bolder;
+    color: goldenrod;
 }
 
 .section-one,
@@ -42,6 +47,13 @@ ul {
 .section-two-content {
     max-width: 40%;
     font-size: 30px;
+    padding: 20px 0;
+}
+
+.section-two-content p {
+    font-size: 20px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 35px;
 }
 
 .section-two-content img {
@@ -84,4 +96,9 @@ ul {
 
 .header h2 {
     margin-right: -70px;
+}
+
+.section-two h2,
+.section-two p{
+    margin: 25px 0;
 }
