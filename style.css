@@ -102,3 +102,8 @@ ul {
 .section-two p{
     margin: 25px 0;
 }
+
+a{
+    text-decoration: none;
+    color: #F7F7F7;
+}
