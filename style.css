@@ -50,11 +50,13 @@ ul {
     padding: 20px 0;
 }
 
-.section-two-content p {
+.section-two-content p,
+.section-two-content ul {
     font-size: 20px;
     font-family: "Helvetica", "Arial", sans-serif;
     line-height: 35px;
 }
+
 
 .section-two-content img {
     margin-left: -100px;
@@ -62,6 +64,15 @@ ul {
     object-fit: cover;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(57, 177, 83, 0.3);
+}
+
+.section-two-content .bat img {
+    margin-left: 0;
+    border-radius: 2px;
+    object-fit: cover;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid #F7F7F7;
+    max-width: 525px;
 }
 
 .section-two-content h2 {
@@ -110,5 +121,5 @@ a{
 
 .section-two-content ul {
     display: block;
-    font-size: 20px;
 }
+
